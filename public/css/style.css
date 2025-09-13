@@ -1,0 +1,154 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.container-fluid {
+  flex: 1;
+}
+
+/* ========== Navbar ========== */
+
+.navbar {
+  height: 5rem !important;
+  background-color: white !important;
+}
+
+.nav-logo {
+  height: 50px;
+  width: 150px;
+  object-fit: cover;
+}
+
+.nav-link {
+  color: #222222 !important;
+  font-size: 1.2rem !important;
+  background-color: white !important;
+  padding-left: 0.5rem !important;
+  margin: 0.3rem !important;
+  display: flex !important;
+  align-items: center !important;
+}
+
+.nav-explore {
+  width: 93.5% !important;
+}
+
+.nav-link:hover {
+  color: white !important;
+  background-color: #222222 !important;
+}
+
+.collapse {
+  background-color: white;
+}
+
+/* ========= Footer ========== */
+
+.f-info,
+.f-info-socials {
+  height: 8rem;
+  background-color: #ebebeb;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.f-info-socials button {
+  font-size: 2rem;
+  margin-right: 0.5rem;
+  margin-top: 0.8rem;
+  color: rgb(24, 49, 83);
+  background-color: #ebebeb;
+}
+
+.f-info-brand p {
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+.f-text {
+  text-decoration: none;
+  font-size: 1rem;
+  color: #222222;
+  font-weight: 500;
+  margin: 0.5rem;
+}
+
+.f-info-links a:hover {
+  text-decoration: underline;
+}
+
+.f-info-links,
+.f-info-socials,
+.f-info-brand {
+  width: 100%;
+}
+
+/* ======== Home ======== */
+.listing-card {
+  border: none !important;
+  font-size: 1.3rem !important;
+  margin: 2rem 1rem;
+}
+
+.card-img-top {
+  border-radius: 1rem !important;
+  height: 25rem;
+  object-fit: cover;
+}
+
+.card-body {
+  margin-left: -10px;
+}
+
+.listing-link {
+  text-decoration: none;
+}
+
+/* ========== Show ========== */
+.show-img {
+  height: 60vh;
+  object-fit: cover;
+  min-width: 200px;
+}
+
+.btns {
+  display: flex;
+  margin-top: -30px !important;
+}
+
+.btns button {
+  width: 100px;
+  border: none;
+  margin-right: 10px;
+  margin-bottom: 25px;
+}
+
+.show-row {
+  display: flex;
+  justify-content: center;
+}
+
+.row-btn {
+  justify-content: center;
+}
+
+/* ========== Edit ========== */
+.e-content,
+.form-control {
+  font-size: 1.3rem !important;
+}
+
+.e-content {
+  font-weight: 500 !important;
+}
+
+.e-btn {
+  width: 100px;
+  margin-bottom: 50px;
+}
